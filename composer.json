@@ -1,0 +1,25 @@
+{
+    "name": "lavoaster/laravel-tactician",
+    "require": {
+        "league/tactician": "^1.0",
+        "league/tactician-logger": "^0.10.0",
+        "league/tactician-doctrine": "^1.0",
+        "illuminate/support": "^5.4",
+        "illuminate/queue": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "mockery/mockery": "0.9.*",
+        "friendsofphp/php-cs-fixer": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lavoaster\\LaravelTactician\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lavoaster\\LaravelTactician\\Tests\\": "tests/"
+        }
+    }
+}
